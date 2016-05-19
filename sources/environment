@@ -1,0 +1,9 @@
+ARCH=arm
+KBUILD_DEBARCH=armhf
+CROSS_COMPILE=arm-linux-gnueabihf-
+KDEB_CHANGELOG_DIST=jessie
+LOCALVERSION=-dev
+KDEB_PKGVERSION=4.4.6-osxbuild
+DEBFULLNAME="Fake Long Name"
+DEBEMAIL="fake@untested.dev"
+PATH=/opt/arm-toolchain/linaro/bin:/usr/bin/:/bin:/sbin/:/usr/sbin
