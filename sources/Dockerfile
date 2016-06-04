@@ -42,6 +42,6 @@ RUN tar xf /opt/arm-toolchain/toolchain.tar.xz \
 RUN mkdir -p /opt/build/
 RUN git -C /opt/ \
 	clone https://github.com/nextthingco/chip-linux.git \
-	--branch=nextthing/4.4/next \
+	--branch=nextthing/4.4/chip \
 	--depth 1
 WORKDIR /opt/build
